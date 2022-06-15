@@ -1,0 +1,34 @@
+@import "src/styles/variables";
+@import "src/styles/breakpoints";
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 40px 120px;
+
+  @include breakpoint(tablet) {
+    padding: 50px 28px 110px;
+  }
+
+  @include breakpoint(phone-large) {
+    padding: 50px 20px 90px;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    color: $primary-color;
+    text-align: center;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: minmax(0, 200px) 1fr;
+    gap: 28px;
+    margin-top: 40px;
+
+    @include breakpoint(laptop-small) {
+      grid-template-columns: 1fr;
+    }
+  }
+}

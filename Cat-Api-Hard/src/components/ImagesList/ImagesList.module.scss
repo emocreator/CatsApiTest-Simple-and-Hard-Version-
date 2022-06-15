@@ -1,0 +1,47 @@
+@import "src/styles/variables";
+@import "src/styles/breakpoints";
+
+.grid {
+  display: grid;
+  gap: 28px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  @include breakpoint(tablet) {
+    gap: 20px;
+  }
+
+  @include breakpoint(tablet-small) {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+.error_text {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.loader {
+  display: grid;
+  place-items: center;
+  margin-top: 10px;
+
+  @include breakpoint(tablet) {
+    margin-top: 0;
+  }
+}
+
+.load_more {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+
+  &__button {
+    background: $primary-color;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 28px;
+  }
+}
