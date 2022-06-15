@@ -29,5 +29,7 @@ Communication tool:
 - Visual studio Code
 
 # Previews
+Simple
 ![](Simple%20demonstration.PNG)
+Hard
 ![](Hard%20demonstration.PNG)
