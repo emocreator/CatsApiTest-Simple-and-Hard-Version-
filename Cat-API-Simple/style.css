@@ -1,0 +1,19 @@
+ body {
+     background-color: coral;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ img {
+     width: 30vh;
+ }
+ .container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+     margin-top: 20vh;
+ }
+ .container button {
+     background-color: aqua;
+     width: 10em;
+ }
