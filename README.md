@@ -1,7 +1,7 @@
 Simple Version
 #Description
-# Cat-Api-Simple was built using the Cat API https://api.thecatapi.com/
-# All it does is fetch a random cat picture and displays it on the screen once the button is pressed.
+Cat-Api-Simple was built using the Cat API https://api.thecatapi.com/
+All it does is fetch a random cat picture and displays it on the screen once the button is pressed.
 Cat API is A public service API all about Cats. In this repository, it is the Api for this application.
 
 the Best Cat conscept is desgin to provide family with the infomation needed of the different type of breeds inorder to make the decision about the best breaed of cat that would be suitable for a fmaily when getting a cat. 
@@ -28,5 +28,5 @@ Communication tool:
 
 # Preview
 
-![](Simple demonstration.PNG)
+![](Simple%20demonstration.PNG)
 
