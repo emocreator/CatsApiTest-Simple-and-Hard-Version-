@@ -28,5 +28,5 @@ Communication tool:
 
 # Preview
 
-![image](Simple demonstration.PNG)
+![](Simple demonstration.PNG)
 
